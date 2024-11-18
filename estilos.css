@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&family=Parisienne&family=Satisfy&display=swap');
+
+ul li {
+    color: white
+}
+
+a:link {
+    color: rgb(252, 252, 252);
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: darkgoldenrod;
+
+}
+
+body {
+    padding-left: 20px;
+    color: black;
+
+
+}
+
+#texto-normal {
+    font-family: "Satisfy", cursive;
+    font-size: 1.2em;
+    color: #FFE4C4 ;
+
+
+}
+
+a {
+    font-size: 1.5em;
+    font-family: "Pacifico", serif;
+    text-decoration: none;
+
+}
+
+p {
+    font-family: "Satisfy", cursive;
+    font-size: 2em;
+    color: #FFE4C4;
+    justify-content: center;
+    text-align: center;
+}
+
+#logocafe {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+
+}
+
+h1 {
+    font-family: "Parisienne", cursive;
+    font-size: 3em;
+    text-align: center;
+    color: darkgoldenrod;
+    margin-bottom: 5px;
+}
+
+#eslogan {
+    font-family: "Caveat", cursive;
+    text-align: center;
+    font-size: 2em;
+    color: cornsilk;
+    border-style: solid ;
+    border-color : cornsilk;
+    padding: 30px;
+    border-width: 2px;
+}
+
+h2 {
+    color: #FFE4C4;
+    font-family: "Pacifico", serif;
+    line-height: 2;
+    padding: auto;
+}
+.categorias{
+background-color: darkgoldenrod;
+text-shadow: 3px 3px White;
+
+}
+td, th {
+vertical-align: auto;
+border: solid 3px;
+border-collapse:a ;
+width: 50%;
+padding: 20px;
+}
+table{
+background-color: cornsilk;
+font-family: "Satisfy", cursive;
+font-size: 1.5em;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+.fotocarta{
+height: 200px;
+width: 200px;
+
+}

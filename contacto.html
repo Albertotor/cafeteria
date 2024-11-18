@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos3.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+    <body style="background-image: url(/immagenes/taza-cafe.jpg);">
+        <h1>Cafe paris</h1>
+        <p id="eslogan">Un momento de relax</p>
+        <ul>
+            <li><a href="index.html">Principal</a></li>
+            <li><a href="carta.html">Nuestra carta</a></li>
+            <li><a href="contacto.html">Contacte con nosoros</a></li>
+        </ul>
+        <h2>Contacte con nosotros </h2>
+
+        <form action="procesacontacto.php" method="get">
+            <p>
+                <label for="nombre">Nombre y Apellidos:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre y apellidos" required>
+            </p>
+            <p>
+                <label for="fecha">Fecha de Nacimiento:</label>
+                <input type="date" id="fecha" name="fecha" required>
+            </p>
+            <p>
+                Suele consumir:
+                <input type="checkbox" id="consumicion" name="consumo" checked>
+                <label for="opcion">cafe</label>
+                <input type="checkbox" id="consumicion" name="consumo">
+                <label for="opcion2">te</label>
+                <input type="checkbox" id="consumicion" name="consumo">
+                <label for="opcion3">Ambos</label>
+            </p>
+            <p>
+                <label for="cafes">Numero de cafes al dia</label>
+                <input type="number" id="puntuacion" name="puntuacion" min="1" max="5">
+            </p>
+            <p>
+                <label for="ciudad">Seleccione su cafetería:</label>
+                <select id="ciudad" name="ciudad">
+                    <option value="Madrid" selected>Madrid</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Valencia">Valencia</option>
+                </select>
+            </p>
+            <p>
+                <input type="checkbox" id="suscripcion" name="suscripcion" checked>
+                <label for="suscripcion">Deseo recibir informacion sobre novedades y ofertas</label>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reiniciar">
+            </p>
+        </form>
+    
+</body>
+</html>
